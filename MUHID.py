@@ -16,7 +16,7 @@ except ModuleNotFoundError:
         os.system(f'pip install requests futures==2 > /dev/null')
 except:pass
 #--------------------- [ SEX ] -------------------#
-model2 =requests.get('https://gist.githubusercontent.com/Nox-Naved/0588acb2b77932048a251d50a973029b/raw/f6de01ac684131b5353854ee114880fb00227cee/Model60').text.splitlines()
+model2 = requests.get('https://gist.githubusercontent.com/Nox-Naved/0588acb2b77932048a251d50a973029b/raw/f6de01ac684131b5353854ee114880fb00227cee/Model60').text.splitlines()
 jan = []
 loop=0
 oks=[]
@@ -26,7 +26,7 @@ twf=[]
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/FB4A;FBAV/230.0.0.36.117;FBBV/162942669;FBDM/{density=2.0,width=720,height=1456};FBLC/en_US;FBRV/382083935;FBCR/Banglalink;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX2021;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]
+    END = '[FBAN/FB4A;FBAV/394.1.0.51.107;FBBV/318819992;FBDM/{density=2.0,width=720,height=1456};FBLC/en_US;FBRV/382083935;FBCR/Banglalink;FBMF/realme;FBBD/realme;FBPN/com.facebook.katana;FBDV/RMX2021;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
@@ -37,17 +37,17 @@ F='\033[38;5;45m'
 R='\033[38;5;196m'
 #--------------------- [ LOGO ] -------------------#
 fuck = """
-\033[38;5;46m      ___           ___           ___                               
-\033[38;5;46m     /\  \         /\  \         /\  \                     _____    
-\033[38;5;46m    |::\  \        \:\  \        \:\  \       ___         /::\  \   
-\033[38;5;46m    |:|:\  \        \:\  \        \:\  \     /\__\       /:/\:\  \ 
-\033[38;5;46m  __|:|\:\  \   ___  \:\  \   ___ /::\  \   /:/__/      /:/  \:\__\ 
-\033[38;5;46m  /::::|_\:\__\ /\  \  \:\__\ /\  /:/\:\__\ /::\  \     /:/__/ \:|__|      
-\033[38;5;46m \:\~~\  \/__/ \:\  \ /:/  / \:\/:/  \/__/ \/\:\  \__  \:\  \ /:/  /
-\033[38;5;46m  \:\  \        \:\  /:/  /   \::/__/       ~~\:\/\__\  \:\  /:/  /
-\033[38;5;46m   \:\  \        \:\/:/  /     \:\  \          \::/  /   \:\/:/  /  
-\033[38;5;46m    \:\__\        \::/  /       \:\__\         /:/  /     \::/  /   
-\033[38;5;46m     \/__/         \/__/         \/__/         \/__/       \/__/    
+\033[38;5;45m      ___           ___           ___                               
+\033[38;5;45m    /\  \         /\  \         /\                       _____    
+\033[38;5;45m    |::\  \        \:\  \        \:\  \       ___         /::\  \   
+\033[38;5;45m   |:|:\  \        \:\  \        \:\  \     /\__\       /:/\:\  \  
+\033[38;5;45m __|:|\:\  \   ___  \:\  \   ___ /::\  \   /:/__/      /:/  \:\__\ 
+\033[38;5;45m /::::|_\:\__\ /\  \  \:\__\ /\  /:/\:\__\ /::\  \     /:/__/ \:|__|
+\033[38;5;45m \:\~~\  \/__/ \:\  \ /:/  / \:\/:/  \/__/ \/\:\  \__  \:\  \ /:/  /
+\033[38;5;45m  \:\  \        \:\  /:/  /   \::/__/       ~~\:\/\__\  \:\  /:/  / 
+\033[38;5;45m   \:\  \        \:\/:/  /     \:\  \          \::/  /   \:\/:/  /  
+\033[38;5;45m    \:\__\        \::/  /       \:\__\         /:/  /     \::/  /   
+\033[38;5;45m     \/__/         \/__/         \/__/         \/__/       \/__/    
 ===================================
 =================================== """
 #--------------------- [ DEF-LOGO X CLEAR ] -------------------#
